@@ -113,13 +113,13 @@ a.liquid_button .liquid::before {
 
 a.liquid_button .liquid::before {
   border-radius: 45%;
-  background: #effffd;
+  background: #effffdfa;
   animation: animate 5s linear infinite;
 }
 
 a.liquid_button .liquid::after {
   border-radius: 40%;
-  background: #effffd;
+  background: #effffde7;
   animation: animate 10s linear infinite;
 }
 
