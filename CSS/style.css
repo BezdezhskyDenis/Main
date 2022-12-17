@@ -27,7 +27,7 @@ div.carousel.slide {
 }
 
 div.title {
-  padding: 50px 10px;
+  padding: 20px 10px;
 }
 
 nav.navbar {
@@ -53,4 +53,12 @@ nav a:hover {
 
 nav a.navbar-brand:hover {
   font-size: 2rem;
+}
+
+.copyright{
+    text-align: center;
+}
+
+li.nav-item{
+    padding:  0 10px;
 }
