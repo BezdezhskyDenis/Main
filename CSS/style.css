@@ -37,6 +37,7 @@ div.navbar-collapse,
 div.nav-item,
 a.dropdown-item {
   font-size: 1.3rem;
+  transition: .3s;
 }
 
 a.navbar-brand {
@@ -53,6 +54,16 @@ a.navbar-brand {
 nav a:hover {
   font-size: 1.5rem;
 }
+
+a.active{
+  transition: .5s;
+}
+
+.navbar-nav:hover > :not(:hover){
+  transition: .5s;
+  opacity: .4;
+}
+
 
 nav a.navbar-brand:hover {
   font-size: 2rem;
