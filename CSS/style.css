@@ -1,3 +1,7 @@
+body {
+  background-color: #effffd;
+}
+
 .title {
   padding-top: 10px;
   text-align: center;
@@ -7,7 +11,7 @@ div.container > div.p-cards {
   padding: 40px 0;
 }
 div.p-cards div.card {
-  margin: 10px;
+  margin: 2%;
 }
 div.p-cards div.carousel {
   margin: 10px;
@@ -15,9 +19,38 @@ div.p-cards div.carousel {
 
 .carousel-item {
   /* height: 30rem; */
-  background-color: lightgrey;
+  background-color: #85f4ff;
 }
 
-div.container div.carousel-inner {
-  height: 800px;
+div.carousel.slide {
+  height: 820px;
+}
+
+div.title {
+  padding: 50px 10px;
+}
+
+nav.navbar {
+  background-color: #b8fff9;
+}
+div.navbar-collapse,
+div.nav-item,
+a.dropdown-item {
+  font-size: 1.3rem;
+}
+
+a.navbar-brand {
+  font-size: 2rem;
+}
+
+.btn {
+  background-color: #42c2ff;
+}
+
+nav a:hover {
+  font-size: 1.5rem;
+}
+
+nav a.navbar-brand:hover {
+  font-size: 2rem;
 }
