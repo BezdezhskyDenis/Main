@@ -65,3 +65,78 @@ nav a.navbar-brand:hover {
 li.nav-item {
   padding: 0 10px;
 }
+
+/* liquid button */
+
+a.liquid_button {
+  position: relative;
+  padding: 20px 50px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 400px;
+  overflow: hidden;
+  border-radius: 40px;
+}
+
+a.liquid_button span {
+  position: relative;
+  color: black;
+  font-size: 20px;
+  font-family: arial;
+  letter-spacing: 8px;
+  z-index: 1;
+}
+
+a.liquid_button .liquid {
+  position: absolute;
+  top: -60px;
+  left: 0;
+  width: 400px;
+  height: 250px;
+  background: #42c2ff;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+
+a.liquid_button .liquid::after,
+a.liquid_button .liquid::before {
+  content: "";
+  width: 100%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  background: #000;
+}
+
+a.liquid_button .liquid::before {
+  border-radius: 45%;
+  background: #effffd;
+  animation: animate 5s linear infinite;
+}
+
+a.liquid_button .liquid::after {
+  border-radius: 40%;
+  background: #effffd;
+  animation: animate 10s linear infinite;
+}
+
+a.liquid_button:hover .liquid {
+  top: -120px;
+}
+
+@keyframes animate {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+
+div.align-items-center{
+  
+  
+}
